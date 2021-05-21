@@ -1,0 +1,175 @@
+body {
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 23px;
+    margin: auto;
+}
+
+#main {
+    font-family: 'Archivo', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #856E4A;
+}
+
+#top {
+    position: absolute;
+    width: 100vw;
+    height: 120px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #856E4A;
+    z-index: 100;
+}
+
+#nickDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#players {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100vw;
+    max-width: 616px;
+    height: 100px;
+}
+
+#ready {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(31, 22, 22) 2px;
+    border-radius: 100px;
+    width: 92px;
+    height: 92px;
+    background-color: #FFE8C2;
+    z-index: 100;
+}
+
+#gameContainer {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100vw;
+    height: 88vh;
+    background-color: #d1b689;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#board {
+    /*               */
+    /* position: absolute;
+top: 150px;
+left: 100px; */
+    /* TO BE REMOVED */
+
+    width: 500px;
+    height: 500px;
+}
+
+/* #boardCanvas {
+width: 500px;
+height: 500px;
+} */
+#moveDiv {
+    /*               */
+    /* position: absolute;
+top: 0px;
+left: 50px; */
+    /* TO BE REMOVED */
+
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#preview {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    z-index: 100;
+    border: rgb(31, 22, 22) solid 2px;
+    border-radius: 50%;
+    background-color: #3D6385;
+    cursor: pointer;
+}
+
+#timer {
+    align-self: flex-start;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #8AAFD1;
+    border: rgb(31, 22, 22) solid 2px;
+    border-radius: 50%;
+}
+
+#hidden {
+    margin-right: auto;
+    order: -1;
+    width: 34px;
+    height: 34px;
+    visibility: hidden;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid rgb(31, 22, 22) 2px;
+    border-radius: 100px;
+    margin-right: 5px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.pin {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    z-index: 100;
+    border: black solid 2px;
+    border-radius: 50%;
+}
+
+.roll {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+}
